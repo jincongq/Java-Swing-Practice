@@ -1,0 +1,19 @@
+/*
+	Game viewer runs the game, creates a new frame, etc.
+	
+*/
+
+
+import javax.swing.JFrame;
+
+public class GameViewer
+{  
+   public static void main(String[] args)
+   {  
+      JFrame frame = new GameFrame();
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      //frame.setTitle("");
+      frame.setVisible(true);      
+   }
+
+}
